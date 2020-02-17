@@ -22,7 +22,7 @@
  
 <!---- SCRIPT - DO NOT TOUCH ---->
 
-<link href="https://fonts.googleapis.com/css?family=Arapey|Karla|Lora|PT+Serif|Playfair+Display|Quicksand" rel="stylesheet"><link rel="stylesheet" type="text/css" href="//dl.dropbox.com/s/tki2ibhra46cxb0/style.css">
+<link href="https://fonts.googleapis.com/css?family=Arapey|Karla|Lora|PT+Serif|Playfair+Display|Quicksand|Poppins" rel="stylesheet"><link rel="stylesheet" type="text/css" href="//dl.dropbox.com/s/tki2ibhra46cxb0/style.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script><script src="//dl.dropbox.com/s/vcmmn9fpowr87vf/filter.js"></script>
 <script src="https://static.tumblr.com/xd6ujov/9Rpouml9f/imagesloaded.pkgd.min.js"></script><script src="//dl.dropbox.com/s/x3z7b0uozqttpv0/masonry.js"></script>
 
@@ -53,15 +53,15 @@
 /* scrollbar */
  
 ::-webkit-scrollbar {
-   width:5px;
+   width:10px;
    height:17px;
-   background-color: #fff;
+   background-color: #6B699D;
 }
 ::-webkit-scrollbar-track {
    background-color: #fff;
 }
 ::-webkit-scrollbar-thumb {
-   background-color: rgba(252, 201, 201, .4);
+   background-color: #6B699D;
    min-height:24px;
    min-width:24px;
 }
@@ -74,8 +74,8 @@
 /* general */
 
 body {
-background: #fff; /* page background */
-font-family: 'lora'; /* font */
+background: #FFFFFF; /* page background */
+font-family: 'poppins'; /* font */
 cursor: default;
 overflow-x:hidden;
 }
@@ -83,11 +83,11 @@ overflow-x:hidden;
 /* accent color */
 
 h1, .button:hover,.button.selected, .content a {
-    background: rgba(252, 201, 201, .3);
+    background: rgba(107, 105, 157, 50);
 }
 
 a:hover, .item a:hover {
-    color: #C39B9B; /* links hover colour */
+    color: #6B699D; /* links hover colour */
 }
 
 /* header */
@@ -97,24 +97,34 @@ a:hover, .item a:hover {
 }
 
 h1 { /* title */
-    font-family: 'quicksand';
-    font-size: 16px;
-    letter-spacing: 2px;
-    color: #444;
+    font-family: 'poppins';
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #FFF;
 }
 
-.links, .desc, .filters { /* other text */
-    font-size: 11px;
+.links, .filters { /* other text */
+    font-size: 15px;
+}
+
+.desc { /* desc */
+    font-size: 10px;
 }
 
 /* members */
 
-.item, .item a {
+.item {
     color: #444; /* text color*/
 }
 
+.item a {
+    color: #444; /* text color*/
+}
+
+
 h2 { /*title*/
     font-size: 13px;
+    text-align: left;
 }
 
 .content { /*description*/
@@ -134,25 +144,26 @@ h2 { /*title*/
 <!--- header ---->
 <div class="header">
 <div class="headercontent">
-    <h1>members</h1> <!--- here goes your title ---->
+    <h1>SP</h1> <!--- here goes your title ---->
     <div class="links">
-        <a href="/">back</a>
-        <a href="/ask">ask</a>
-        <a href="/">join</a>
-        <a href="/">link</a>
+        <a href="/">about</a>
+        <a href="/ask">contact</a>
+        <a href="/">blog</a>
+        <a href="/">click!</a>
         <!--- copy & paste as needed ---->
     </div>
   
 <!--- if you don't want filters: delte from here ---->
     <div class="filters">
-      <div class="button selected" filter="item">everything</div>
-      <div class="button" filter="filter1">filter one</div>
-      <div class="button" filter="filter2">filter two</div>
+      <div class="button selected" filter="item">all works</div>
+      <div class="button" filter="filter1">series</div>
+      <div class="button" filter="filter2">posters</div>
+      <div class="button" filter="filter3">videos</div>
       <!--- copy & paste as needed ---->
 </div>
 <!--- until here ---->
 
-    <p class="desc">here goes your description. make sure that you don't make it too long.</p>
+    <p class="desc">hello! i am a communication designer in making and this is a collection of my works.</p>
     </div></div>
     
     
@@ -173,16 +184,24 @@ layout:
     
     
     <div class="item filter1">
-    <img src="https://78.media.tumblr.com/12407d6b680ca2cedb63f8a888dc122f/tumblr_p7izt5ZHZA1vvb2yko3_1280.png"></img>
+    <img src="https://66.media.tumblr.com/f77664e09f38e642a2bb3dd9bd7f8820/ad9b42a599927aad-61/s400x600/c213a77f74e3032a203a944852fe023bd5854a00.png"></img>
+    <h2>pun-tended! series</h2>
+    <p class="content">this is a series of work where i play with words and food. <a href="/series1">more info +</a></p>
+    </div>
+    
+   <div class="item filter2">
+    <img src="https://66.media.tumblr.com/8b138ba99314efd2421fce001a44e69a/ad9b42a599927aad-77/s1280x1920/27ca17afa7a36613884ed4b04f57b047b8d74596.jpg"></img>
     <h2>title here</h2>
     <p class="content">put some text here. <a href="blogurl">name</a></p>
     </div>
     
-   <div class="item filter2">
-    <img src="https://78.media.tumblr.com/47f44de4a429cb70258197652086e363/tumblr_p6t82ooE7V1vvb2yko2_1280.png"></img>
+       <div class="item filter2">
+    <img src="https://66.media.tumblr.com/8b138ba99314efd2421fce001a44e69a/ad9b42a599927aad-77/s1280x1920/27ca17afa7a36613884ed4b04f57b047b8d74596.jpg"></img>
     <h2>title here</h2>
     <p class="content">put some text here. <a href="blogurl">name</a></p>
     </div>
+    
+
     
 <!----- DO NOT EDIT AFTER THIS LINE ----> 
 </div>
