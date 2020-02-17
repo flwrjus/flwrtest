@@ -1,212 +1,495 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<html>
+ 
 <head>
  
- <!-- THEME BY @LEEJORDAN / @VENUSTHMS
-                           do not remove the credit
-                           
--------------------------------------------------------------------------
- 
-  - terms of use: venusthms.tumblr.com/terms
- 
-  - message me if you got any problems or questions about the code
- 
-  - you'll find instructions about customization through out the code
+<title>{Title}</title>
 
-  - the grid/filter effect was created with the tutorial by @cyantists
+<link rel="shortcut icon" href="fas fa-sparkles">
 
-  - art credit goes to @polydeuce
-   
----------------------------------------------------------------------->
- 
-<title>members</title><link rel="shortcut icon" href="{Favicon}"> <!-- change (tab) title here -->
- 
-<!---- SCRIPT - DO NOT TOUCH ---->
+<!-- Colors by Franchesca (extasisthemes) -->
 
-<link href="https://fonts.googleapis.com/css?family=Arapey|Karla|Lora|PT+Serif|Playfair+Display|Quicksand|Poppins" rel="stylesheet"><link rel="stylesheet" type="text/css" href="//dl.dropbox.com/s/tki2ibhra46cxb0/style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script><script src="//dl.dropbox.com/s/vcmmn9fpowr87vf/filter.js"></script>
-<script src="https://static.tumblr.com/xd6ujov/9Rpouml9f/imagesloaded.pkgd.min.js"></script><script src="//dl.dropbox.com/s/x3z7b0uozqttpv0/masonry.js"></script>
+<!-- Google Fonts Script -->
 
-<link href="https://static.tumblr.com/4gatuv1/X8Poxwvz8/style-my-tooltips.css" rel="stylesheet" type="text/css" />
-<script src="https://static.tumblr.com/4gatuv1/Aneoxwvz8/jquery.style-my-tooltips.js"></script>
-<script>
-!function(t){t(document).ready(function(){t("a[title]").style_my_tooltips({tip_follows_cursor:!0,tip_delay_time:200,tip_fade_speed:300})})}(jQuery);
-</script>
- 
- 
+<link href="https://fonts.google.com/specimen/Poppins?selection.family=Poppins" rel="stylesheet">
+
+<!-- Font Awesome Script -->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 <style type="text/css">
- 
-/* tooltips */
- 
-#s-m-t-tooltip {
-  max-width: 250px;
-  margin:24px 14px 7px 12px;
-  padding:5px 8px;
-  background: #fff;
-  border-radius:2px;
-  font-family: 'karla';
-  letter-spacing: 1px;
-  font-size:10px;
-  color:#000;
-  box-shadow: none;
+
+.tmblr-iframe--app-cta-button {
+display: none!important;
 }
  
-/* scrollbar */
+::-webkit-scrollbar-thumb:vertical {
+background: #6B699D;
+}
  
 ::-webkit-scrollbar {
-   width:10px;
-   height:17px;
-   background-color: #6B699D;
+width: 3px;
 }
-::-webkit-scrollbar-track {
-   background-color: #fff;
-}
-::-webkit-scrollbar-thumb {
-   background-color: #6B699D;
-   min-height:24px;
-   min-width:24px;
-}
-
-/* selection */
- 
-::-moz-selection { background:#eee;color:#000; }
-::selection { background:#eee;color:#000; }
-
-/* general */
 
 body {
-background: #FFFFFF; /* page background */
-font-family: 'poppins'; /* font */
-cursor: default;
-overflow-x:hidden;
+background: #ffffff;
+background-attachment: fixed;
+background-repeat: repeat;
+color: #555555;
+font-family: 'Poppins', sans-serif;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 1px;
+margin: 0;
+text-align: justify;
+text-transform: none;
+word-break: break-word;
 }
 
-/* accent color */
-
-h1, .button:hover,.button.selected, .content a {
-    background: rgba(107, 105, 157, 50);
+b {
+font-weight: 700;
 }
 
-a:hover, .item a:hover {
-    color: #6B699D; /* links hover colour */
-}
-
-/* header */
-
-.header {
-    background: inherit;
-}
-
-h1 { /* title */
-    font-family: 'poppins';
-    font-size: 20px;
-    letter-spacing: 3px;
-    color: #FFF;
-}
-
-.links, .filters { /* other text */
-    font-size: 15px;
-}
-
-.desc { /* desc */
-    font-size: 10px;
-}
-
-/* members */
-
-.item {
-    color: #444; /* text color*/
-}
-
-.item a {
-    color: #444; /* text color*/
-}
-
-
-h2 { /*title*/
-    font-size: 13px;
-    text-align: left;
-}
-
-.content { /*description*/
-    font-size: 12px;
-    text-align: left;
-}
-
-.content a:hover { /* link hover background*/
-    background: none;
+a {
+color: #000000;
+text-decoration:  none;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
 }
  
+a:hover {
+color: #cfcfcf;
+}
+ 
+h1 {
+font-weight: 700;
+line-height: 100%;
+text-align: left;
+}
+
+.h1-border {
+background: #6B699D;
+height: 3px;
+margin-bottom: 28px;
+width: 30px;
+}
+ 
+blockquote {
+border-left: 1px solid #eeeeee;
+margin: 5px;
+padding-left: 5px;
+}
+ 
+blockquote img {
+height: auto;
+max-width: 300px;
+}
+ 
+blockquote blockquote {
+border-left: 1px solid #eeeeee;
+padding-left: 5px;
+}
+
+#links {
+font-size: 15px;
+padding-bottom: 13px;
+padding-top: 13px;
+position: fixed;
+text-align: left;
+text-transform: uppercase;
+top: 0px;
+width: 100%;
+z-index: 1;
+}
+ 
+.title {
+background: #ffffff;
+border-radius: 100px;
+color: #000000;
+display: inline-block;
+margin-left: 10px;
+margin-right: 20px;
+padding-right: 10px;
+text-align: center;
+}
+
+.ln-wrapper {
+display: inline-block;
+}
+
+.navigation {
+display: inline-block;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+}
+ 
+.navigation-title {
+background: none;
+color: #ffffff;
+border: none;
+display: inline-block;
+font-family: 'Poppins', sans-serif;
+font-size: 0.9rem;
+margin-right: 10px;
+padding: 0px;
+text-align: center;
+text-transform: uppercase;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+}
+ 
+.navigation:hover .navigation-content {
+display: block;
+}
+ 
+.navigation:hover .navigation-title {
+color: #cfcfcf;
+}
+ 
+.navigation-content {
+display: none;
+position: absolute;
+text-align: left;
+width: 170px;
+z-index: 1;
+}
+ 
+.navigation-content a {
+background: #ffffff;
+color: #000000!important;
+display: block;
+padding: 10px;
+width: 150px;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+}
+ 
+.navigation-content a:hover {
+color: #cfcfcf!important;
+}
+
+#links a {
+color: #000000;
+margin-right: 10px;
+}
+
+#links a:hover {
+color: #cfcfcf;
+}
+
+#panels-wrapper {
+float: left;
+margin-top: 61px;
+width: 100%;
+}
+
+#panel {
+background: #fff;
+border-bottom: 0px solid #eeeeee;
+float: left;
+height: auto;
+top: 0px;
+width: 100%;
+}
+
+.panel-container {
+margin-bottom: 100px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+width: 1000px;
+}
+
+.panel-title {
+font-size: 0.9rem;
+font-weight: 700;
+text-align: left;
+text-transform: uppercase;
+}
+
+.panel-border {
+background: #6B699D;
+height: 3px;
+margin-bottom: 18px;
+margin-top: 18px;
+width: 30px;
+}
+
+.panel-content {
+text-transform: none;
+}
+
+.image {
+height: auto;
+width: 350px;
+}
+
+.image img {
+height: auto;
+width: 350px;
+}
+
+.intro {
+background: #ffffff;
+border-left: 0px solid #6B699D;
+height: 280px;
+margin-left: 350px;
+margin-top: -350px;
+padding: 35px;
+width: 367px;
+}
+
+.projects {
+margin: -10px;
+overflow: hidden;
+width: auto;
+}
+ 
+.projects-wrapper {
+float: left;
+height: 400px;
+margin: auto;
+width: 500px;
+}
+ 
+.projects-image img {
+border: 0px solid #6B699D;
+height: auto;
+position: absolute;
+width: 500px;
+padding: 10px;
+}
+ 
+.projects-name {
+font-size: 0.7rem;
+position: absolute;
+text-transform: uppercase;
+}
+ 
+.projects-name a {
+background: #6B699D;
+background opacity:50;
+border: 1px  #6B699D;
+color: #ffffff;
+display: inline-block;
+padding: 10px;
+}
+ 
+.projects-name a:hover {
+background: #ffffff;
+color: #6B699D;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+body {
+background-image: none;
+}
+
+.panel-container {
+width: 470px;
+}
+
+.image {
+height: 470px;
+width: 470px;
+}
+
+.image img {
+height: 470px;
+width: 470px;
+}
+
+.intro {
+background: #f8f8f8;
+height: auto;
+margin-left: auto;
+margin-top: auto;
+width: 397px;
+}
+
+.projects {
+margin: 0px;
+width: 470px;
+}
+
+.projects-wrapper {
+height: 470px;
+margin: 0px;
+margin-bottom: 10px;
+width: 470px;
+}
+
+.projects-image img {
+height: 468px;
+width: 468px;
+}
+
+.commission-wrapper {
+margin: 0px;
+width: 470px;
+}
+
+.commission-status {
+margin: 0px;
+margin-bottom: 10px;
+width: 470px;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+    
+.ln-wrapper {
+margin-left: 10px;
+margin-top: 10px;
+}
+
+#panels-wrapper {
+margin-top: 88px;
+}
+
+.panel-container {
+width: 320px;
+}
+
+.image {
+height: 320px;
+width: 320px;
+}
+
+.image img {
+height: 320px;
+width: 320px;
+}
+
+.intro {
+height: auto;
+margin-left: 0px;
+margin-top: 0px;
+width: 247px;
+}
+
+.projects {
+margin: 0px;
+width: 320px;
+}
+
+.projects-wrapper {
+height: 320px;
+margin: 0px;
+margin-bottom: 10px;
+width: 320px;
+}
+
+.projects-image img {
+height: 318px;
+width: 318px;
+}
+
+.commission-wrapper {
+margin: 0px;
+width: 320px;
+}
+
+.commission-status {
+margin: 0px;
+margin-bottom: 10px;
+width: 320px;
+}
+
+}
+
+{CustomCSS}
+    
 </style>
+    
 </head>
- 
+
 <body>
 
-<!--- header ---->
-<div class="header">
-<div class="headercontent">
-    <h1>SP</h1> <!--- here goes your title ---->
-    <div class="links">
-        <a href="/">about</a>
-        <a href="/ask">contact</a>
-        <a href="/">blog</a>
-        <a href="/">click!</a>
-        <!--- copy & paste as needed ---->
-    </div>
-  
-<!--- if you don't want filters: delte from here ---->
-    <div class="filters">
-      <div class="button selected" filter="item">all works</div>
-      <div class="button" filter="filter1">series</div>
-      <div class="button" filter="filter2">posters</div>
-      <div class="button" filter="filter3">videos</div>
-      <!--- copy & paste as needed ---->
+
+
+<div id="links">
+<div class="title"><i class="far fa-moon"style="background: #6B699D;border-radius: 100px;color: #000000;font-size: 0.8rem;margin-right: 10px;padding: 10px;width: 0.8rem;margin-left: -1px;margin-right: 10px;padding: 10px;width: 0.8rem;"></i>SP</div>
+<div class="ln-wrapper">
+<a href="/">Works.</a>
+
+<a href="/">Contact.</a>
 </div>
-<!--- until here ---->
-
-    <p class="desc">hello! i am a communication designer in making and this is a collection of my works.</p>
-    </div></div>
-    
-    
-<!--- members section starts 
-- replace filter1/filter2/etc (after 'item') with the filter names you set above(<div class="button" filter="THISISYOURFILTERNAME">filter one</div>)
-- IMPORTANT: do not delete 'item' !
-
-layout: 
-
-<div class="item here goes your filters">
-    <img src="IMAGEURL"></img>
-    <h2>Title</h2>
-    <p class="content">description <a href="/link">blogtitle/name</a></p>
-    </div>
-    
----->
-<div class="grid">
-    
-    
-    <div class="item filter1">
-    <img src="https://66.media.tumblr.com/f77664e09f38e642a2bb3dd9bd7f8820/ad9b42a599927aad-61/s400x600/c213a77f74e3032a203a944852fe023bd5854a00.png"></img>
-    <h2>pun-tended! series</h2>
-    <p class="content">this is a series of work where i play with words and food. <a href="https://flwrjus.github.io/seriesone/">more info +</a></p>
-    </div>
-    
-   <div class="item filter2">
-    <img src="https://66.media.tumblr.com/8b138ba99314efd2421fce001a44e69a/ad9b42a599927aad-77/s1280x1920/27ca17afa7a36613884ed4b04f57b047b8d74596.jpg"></img>
-    <h2>title here</h2>
-    <p class="content">put some text here. <a href="blogurl">name</a></p>
-    </div>
-    
-       <div class="item filter2">
-    <img src="https://66.media.tumblr.com/8b138ba99314efd2421fce001a44e69a/ad9b42a599927aad-77/s1280x1920/27ca17afa7a36613884ed4b04f57b047b8d74596.jpg"></img>
-    <h2>title here</h2>
-    <p class="content">put some text here. <a href="blogurl">name</a></p>
-    </div>
-    
-
-    
-<!----- DO NOT EDIT AFTER THIS LINE ----> 
 </div>
-<div class="vt"><a href="https://venusthms.tumblr.com/" title="venusthms"><img src="https://i.imgur.com/PxFLRpM.png"></img></a></div>
+
+<div id="panels-wrapper">
+
+
+
+<!-- Start of Photography Panel -->
+
+<div id="panel">
+
+<div class="panel-container">
+
+<div class="panel-title">Pun-Tended! Series.</div>
+
+<div class="panel-border"></div>
+
+<div class="projects">
+
+
+<!-- Start of Photography -->
+
+<div class="projects-wrapper">
  
-   
+<div class="projects-image">
+<img src="https://66.media.tumblr.com/f77664e09f38e642a2bb3dd9bd7f8820/ad9b42a599927aad-61/s400x600/c213a77f74e3032a203a944852fe023bd5854a00.png"/>
+</div>
+ 
+</div>
+
+<!-- End of Photography -->
+
+<!-- Start of Photography -->
+
+<div class="projects-wrapper">
+ 
+<div class="projects-image">
+<img src="https://66.media.tumblr.com/e9f752619cde55cc719dc40e647b6d60/ad9b42a599927aad-b0/s1280x1920/49380b928bdbbbdc9ad8f942cf89977af3ed147b.png"/>
+</div>
+ 
+</div>
+
+<!-- End of Photography -->
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<!-- End of Photography Panel -->
+
+
+
+
+
+
+
+
+
+</div>
+
 </body>
+
 </html>
